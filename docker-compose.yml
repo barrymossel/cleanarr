@@ -1,0 +1,13 @@
+services:
+  cleanarr:
+    container_name: cleanarr
+    image: cleanarr:latest
+    environment:
+      - TZ=${TIME_ZONE_VALUE}
+      - PUID=${APPUSER_PUID}
+      - PGID=${APPUSER_PGID}
+    volumes:
+      - ${PATH_TO_APPDATA}/cleanarr:/config
+    ports:
+      - 7979:7979
+    restart: unless-stopped

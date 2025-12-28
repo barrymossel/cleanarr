@@ -1,0 +1,21 @@
+{
+  "short_name": "Cleanarr",
+  "name": "Cleanarr - Media Management",
+  "description": "Clean up your media library automatically",
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff"
+}
